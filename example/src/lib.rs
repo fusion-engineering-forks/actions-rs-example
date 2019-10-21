@@ -28,6 +28,10 @@ pub fn pid_is_valid(pid: Pid) -> bool {
     }
 }
 
+pub fn foo(foo: i32) {
+    // Ignore foo.
+}
+
 #[cfg(test)]
 mod tests {
     use std::process;
